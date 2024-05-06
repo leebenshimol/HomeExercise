@@ -6,6 +6,7 @@
 from exercise_one import num_len
 from exercise_two import pythagorean_triplet_by_sum
 from exercise_three import is_sorted_polyndrom
+from exercise_four import numbers_info
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -17,5 +18,6 @@ if __name__ == '__main__':
     print(num_len(1))
     pythagorean_triplet_by_sum(12)
     print(f"{is_sorted_polyndrom("אבא")}")
+    numbers_info()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
