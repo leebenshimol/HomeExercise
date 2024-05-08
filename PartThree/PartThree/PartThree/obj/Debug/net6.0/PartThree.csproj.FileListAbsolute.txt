@@ -1,0 +1,14 @@
+C:\Users\Lee\source\repos\PartThree\PartThree\bin\Debug\net6.0\PartThree.exe
+C:\Users\Lee\source\repos\PartThree\PartThree\bin\Debug\net6.0\PartThree.deps.json
+C:\Users\Lee\source\repos\PartThree\PartThree\bin\Debug\net6.0\PartThree.runtimeconfig.json
+C:\Users\Lee\source\repos\PartThree\PartThree\bin\Debug\net6.0\PartThree.dll
+C:\Users\Lee\source\repos\PartThree\PartThree\bin\Debug\net6.0\PartThree.pdb
+C:\Users\Lee\source\repos\PartThree\PartThree\obj\Debug\net6.0\PartThree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lee\source\repos\PartThree\PartThree\obj\Debug\net6.0\PartThree.AssemblyInfoInputs.cache
+C:\Users\Lee\source\repos\PartThree\PartThree\obj\Debug\net6.0\PartThree.AssemblyInfo.cs
+C:\Users\Lee\source\repos\PartThree\PartThree\obj\Debug\net6.0\PartThree.csproj.CoreCompileInputs.cache
+C:\Users\Lee\source\repos\PartThree\PartThree\obj\Debug\net6.0\PartThree.dll
+C:\Users\Lee\source\repos\PartThree\PartThree\obj\Debug\net6.0\refint\PartThree.dll
+C:\Users\Lee\source\repos\PartThree\PartThree\obj\Debug\net6.0\PartThree.pdb
+C:\Users\Lee\source\repos\PartThree\PartThree\obj\Debug\net6.0\PartThree.genruntimeconfig.cache
+C:\Users\Lee\source\repos\PartThree\PartThree\obj\Debug\net6.0\ref\PartThree.dll

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lee\\source\\repos\\PartThree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4226D377-78CC-4738-912C-D53FBE52C9BE}|PartThree\\PartThree.csproj|c:\\users\\lee\\source\\repos\\partthree\\partthree\\numericalexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4226D377-78CC-4738-912C-D53FBE52C9BE}|PartThree\\PartThree.csproj|solutionrelative:partthree\\numericalexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4226D377-78CC-4738-912C-D53FBE52C9BE}|PartThree\\PartThree.csproj|c:\\users\\lee\\source\\repos\\partthree\\partthree\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4226D377-78CC-4738-912C-D53FBE52C9BE}|PartThree\\PartThree.csproj|solutionrelative:partthree\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4226D377-78CC-4738-912C-D53FBE52C9BE}|PartThree\\PartThree.csproj|c:\\users\\lee\\source\\repos\\partthree\\partthree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4226D377-78CC-4738-912C-D53FBE52C9BE}|PartThree\\PartThree.csproj|solutionrelative:partthree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4226D377-78CC-4738-912C-D53FBE52C9BE}|PartThree\\PartThree.csproj|c:\\users\\lee\\source\\repos\\partthree\\partthree\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4226D377-78CC-4738-912C-D53FBE52C9BE}|PartThree\\PartThree.csproj|solutionrelative:partthree\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NumericalExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Lee\\source\\repos\\PartThree\\PartThree\\NumericalExpression.cs",
+              "RelativeDocumentMoniker": "PartThree\\NumericalExpression.cs",
+              "ToolTip": "C:\\Users\\Lee\\source\\repos\\PartThree\\PartThree\\NumericalExpression.cs",
+              "RelativeToolTip": "PartThree\\NumericalExpression.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwCIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:55:19.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lee\\source\\repos\\PartThree\\PartThree\\Program.cs",
+              "RelativeDocumentMoniker": "PartThree\\Program.cs",
+              "ToolTip": "C:\\Users\\Lee\\source\\repos\\PartThree\\PartThree\\Program.cs",
+              "RelativeToolTip": "PartThree\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:43:46.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\Lee\\source\\repos\\PartThree\\PartThree\\LinkedList.cs",
+              "RelativeDocumentMoniker": "PartThree\\LinkedList.cs",
+              "ToolTip": "C:\\Users\\Lee\\source\\repos\\PartThree\\PartThree\\LinkedList.cs",
+              "RelativeToolTip": "PartThree\\LinkedList.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAiwLYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:34:16.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Lee\\source\\repos\\PartThree\\PartThree\\Node.cs",
+              "RelativeDocumentMoniker": "PartThree\\Node.cs",
+              "ToolTip": "C:\\Users\\Lee\\source\\repos\\PartThree\\PartThree\\Node.cs",
+              "RelativeToolTip": "PartThree\\Node.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:23:39.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
