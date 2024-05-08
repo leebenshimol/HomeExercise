@@ -6,7 +6,7 @@ def is_sorted_polyndrom(string: str) -> bool:
     for index in range(len(half_sorted)):
         if half_sorted[index] != half_string[index]:
             return False
-    for i, char in enumerate(string):
-        if char != string[str_last_index - i]:
-            return False
+  #  for i, char in enumerate(string):
+       # if char != string[str_last_index - i]:
+     #       return False
     return True

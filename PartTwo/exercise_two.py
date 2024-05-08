@@ -2,8 +2,8 @@ import math
 
 
 def pythagorean_triplet_by_sum(sum_: int) -> None:
-    max_a = int(sum_/3)
-    max_b = int(sum_/2)
+    max_a = int(sum_/3) + 1
+    max_b = int(sum_/2) + 1
     for a in range(1, max_a):
         for b in range(a + 1, max_b):
             c = sum_ - a - b
