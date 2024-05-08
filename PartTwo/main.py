@@ -17,7 +17,7 @@ if __name__ == '__main__':
     print_hi('lee')
     print(num_len(1))
     pythagorean_triplet_by_sum(30)
-    print(f"{is_sorted_polyndrom("אבגדגבא")}")
+    print(f"{is_sorted_polyndrom("אבdגדגבא")}")
     numbers_info()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

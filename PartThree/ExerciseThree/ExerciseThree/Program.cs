@@ -12,7 +12,7 @@ namespace PartThree
             // linkedList.Append(4);
             //linkedList.Append(2);
             //linkedList.Append(9);
-            //linkedList.Prepend(7);
+            linkedList.Prepend(7);
             linkedList.Print();
             //  linkedList.Sort();
             Console.WriteLine(linkedList.GetMaxNode().Value);
