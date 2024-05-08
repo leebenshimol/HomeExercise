@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|c:\\users\\lee\\homeexercise\\homeexercise\\partthree\\exercisethree\\exercisethree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|solutionrelative:exercisethree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|c:\\users\\lee\\homeexercise\\homeexercise\\partthree\\exercisethree\\exercisethree\\exercisethree.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|solutionrelative:exercisethree\\exercisethree.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExerciseThree.csproj",
+              "DocumentMoniker": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\ExerciseThree.csproj",
+              "RelativeDocumentMoniker": "ExerciseThree\\ExerciseThree.csproj",
+              "ToolTip": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\ExerciseThree.csproj",
+              "RelativeToolTip": "ExerciseThree\\ExerciseThree.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T21:44:24.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\Program.cs",
+              "RelativeDocumentMoniker": "ExerciseThree\\Program.cs",
+              "ToolTip": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\Program.cs",
+              "RelativeToolTip": "ExerciseThree\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T21:42:47.712Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
