@@ -187,7 +187,7 @@
                 Console.Write(current.Value + " - > ");
                 current = current.Next;
             }
-            Console.WriteLine("null");
+            Console.WriteLine("nulll");
         }
 
 
