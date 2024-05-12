@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|c:\\users\\lee\\homeexercise\\homeexercise\\partthree\\exercisethree\\exercisethree\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|solutionrelative:exercisethree\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|c:\\users\\lee\\homeexercise\\homeexercise\\partthree\\exercisethree\\exercisethree\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|solutionrelative:exercisethree\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|c:\\users\\lee\\homeexercise\\homeexercise\\partthree\\exercisethree\\exercisethree\\numericalexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|solutionrelative:exercisethree\\numericalexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|c:\\users\\lee\\homeexercise\\homeexercise\\partthree\\exercisethree\\exercisethree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|solutionrelative:exercisethree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|c:\\users\\lee\\homeexercise\\homeexercise\\partthree\\exercisethree\\exercisethree\\exercisethree.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F7E668BB-0DE0-4591-B6C2-D8B859E81CC1}|ExerciseThree\\ExerciseThree.csproj|solutionrelative:exercisethree\\exercisethree.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LinkedList.cs",
-              "DocumentMoniker": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\LinkedList.cs",
-              "RelativeDocumentMoniker": "ExerciseThree\\LinkedList.cs",
-              "ToolTip": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\LinkedList.cs",
-              "RelativeToolTip": "ExerciseThree\\LinkedList.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAAAiwLgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T15:46:04.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Node.cs",
-              "DocumentMoniker": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\Node.cs",
-              "RelativeDocumentMoniker": "ExerciseThree\\Node.cs",
-              "ToolTip": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\Node.cs",
-              "RelativeToolTip": "ExerciseThree\\Node.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T15:46:02.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExerciseThree.csproj",
-              "DocumentMoniker": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\ExerciseThree.csproj",
-              "RelativeDocumentMoniker": "ExerciseThree\\ExerciseThree.csproj",
-              "ToolTip": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\ExerciseThree.csproj",
-              "RelativeToolTip": "ExerciseThree\\ExerciseThree.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-08T21:44:24.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\Program.cs",
               "RelativeDocumentMoniker": "ExerciseThree\\Program.cs",
               "ToolTip": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\Program.cs",
               "RelativeToolTip": "ExerciseThree\\Program.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwCAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T21:42:47.712Z",
+              "WhenOpened": "2024-05-12T13:57:40.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NumericalExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\NumericalExpression.cs",
+              "RelativeDocumentMoniker": "ExerciseThree\\NumericalExpression.cs",
+              "ToolTip": "C:\\Users\\Lee\\HomeExercise\\HomeExercise\\PartThree\\ExerciseThree\\ExerciseThree\\NumericalExpression.cs",
+              "RelativeToolTip": "ExerciseThree\\NumericalExpression.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAmwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:22:53.684Z",
               "EditorCaption": ""
             }
           ]

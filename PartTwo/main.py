@@ -5,7 +5,7 @@ from exercise_four import numbers_data, show_graphical_data
 from exercise_five import reverse_n_pi_digits
 
 if __name__ == '__main__':
-    print(num_len(100))
+    print(num_len(1000))
     pythagorean_triplet_by_sum(600)
     print(f"{is_sorted_polyndrom("אבגדגבא")}")
     # numbers_data()
