@@ -9,4 +9,4 @@ if __name__ == '__main__':
     pythagorean_triplet_by_sum(600)
     print(f"{is_sorted_polyndrom("אבגדגבא")}")
     # numbers_data()
-    reverse_n_pi_digits(5)
+    print(reverse_n_pi_digits(3))

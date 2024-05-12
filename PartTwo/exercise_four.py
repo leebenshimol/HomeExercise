@@ -36,9 +36,9 @@ def average(numbers_list: list) -> float:
 
 
 def sort_list(numbers_list: list) -> list:
-    copy_list = numbers_list.copy()
-    copy_list.sort()
-    return copy_list
+    copy_numbers_list = numbers_list.copy()
+    copy_numbers_list.sort()
+    return copy_numbers_list
 
 
 def positive_numbers_amount(numbers_list: list) -> int:
