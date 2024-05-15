@@ -10,12 +10,27 @@
         {
             GameBoard = new Board();
             GameStatus = new GameStatus();
-            Points = 0;
+            GameStatus = GameStatus.Idle;
+            Points = 2040;
         }
 
         public void Move(Direction direction)
         {
-            GameBoard.Move(direction);
+            int makeAMove = GameBoard.MoveByDirection(direction);
+            if (makeAMove == -1)
+                GameStatus = GameStatus.Lose;
+            else
+                Points += makeAMove;
+            if (Points >= 2048)
+                GameStatus = GameStatus.Win;
+
+        }
+
+        private void CheckGameStatus()
+        {
+            if (Points >= 2048)
+                GameStatus = GameStatus.Win;
+
         }
     }
 }
