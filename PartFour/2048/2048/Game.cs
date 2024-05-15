@@ -8,6 +8,9 @@
 
         public Game() 
         {
+            GameBoard = new Board();
+            GameStatus = new GameStatus();
+            Points = 0;
         }
 
         public void Move(Direction direction)
