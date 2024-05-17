@@ -2,22 +2,43 @@
 {
     class ConsoleGame
     {
-
-        public void StartGame()
+        private void StartGame()
         {
-            Console.WriteLine("Welcome to 2048 :)");
-            Console.WriteLine("In order to start a game press any key except ESC unless you want to quit ");
-            ConsoleKeyInfo userChoice = Console.ReadKey();
-            Console.WriteLine();
-            if (userChoice.Key == ConsoleKey.Escape)
-                Console.WriteLine("Good bye :)");
             Game CurrentGame = new Game();
-            while (CurrentGame.GameStatus != GameStatus.Lose && CurrentGame.GameStatus != GameStatus.Win)
+            while (CurrentGame.GameStatus == GameStatus.Idle)
             {
                 Direction userDirection = GetDirection();
                 CurrentGame.Move(userDirection);
             }
+            if (CurrentGame.GameStatus == GameStatus.Lose)
+                Console.WriteLine("Yoe are out of available moves :( \n ");
+            else
+                Console.WriteLine("Congrats!! you won the game! \n ");
         }
+
+        public void Menu()
+        {
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("Welcome to 2048 :)");
+            Console.WriteLine("In order to start a game press any key except ESC unless you want to quit ");
+            ConsoleKeyInfo userChoice = Console.ReadKey();
+            Console.WriteLine();
+            if (userChoice.Key != ConsoleKey.Escape)
+            {
+                while (userChoice.Key != ConsoleKey.Escape)
+                {
+                    StartGame();
+                    Console.WriteLine("In order to start a game press any key except ESC unless you want to quit ");
+                    userChoice = Console.ReadKey();
+                    Console.WriteLine();
+                    Console.Clear();
+                }
+            }
+            Console.WriteLine(" Good bye :)");
+
+
+        }
+
         private Direction GetDirection()
         {
             Direction userDirectionChoice = new Direction();

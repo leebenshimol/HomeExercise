@@ -3,16 +3,16 @@
     class LinkedList
     {
         public Node Head;
-        private Node LastNode;
-        private Node MaxNode;
-        private Node MinNode;
+        private Node _lastNode;
+        private Node _maxNode;
+        private Node _minNode;
         
         public LinkedList(int value) 
         {
             Head = new Node(value, null);
-            LastNode = Head;
-            MaxNode = Head;
-            MinNode = Head;
+            _lastNode = Head;
+            _maxNode = Head;
+            _minNode = Head;
 
         }    
 
@@ -20,20 +20,20 @@
         {
             Node newNode = new(value, null);
             UpdateMaxMin(newNode);
-            LastNode.Next = newNode;
-            LastNode = newNode;
+            _lastNode.Next = newNode;
+            _lastNode = newNode;
             
         }
         
         private void UpdateMaxMin(Node newNode)
         {
-            if (MaxNode.Value < newNode.Value)
+            if (_maxNode.Value < newNode.Value)
             {
-                MaxNode = newNode;
+                _maxNode = newNode;
             }
-            else if (MinNode.Value > newNode.Value)
+            else if (_minNode.Value > newNode.Value)
             {
-                MinNode = newNode;
+                _minNode = newNode;
             }
         }
         public void Prepend(int value)
@@ -49,24 +49,24 @@
             if (Head != null)
             {
                 int lastNodeVal = 0;
-                if (Head == LastNode)
+                if (Head == _lastNode)
                 {
                     lastNodeVal = Head.Value;
                     NewMaxMin(Head);
                     Head = null;
-                    LastNode = null;
+                    _lastNode = null;
                 }
                 else
                 {
                     Node current = Head;
-                    lastNodeVal = LastNode.Value;
-                    while (current.Next != LastNode)
+                    lastNodeVal = _lastNode.Value;
+                    while (current.Next != _lastNode)
                     {
                         current = current.Next;
                     }
                     current.Next = null;
-                    NewMaxMin(LastNode);
-                    LastNode = current;
+                    NewMaxMin(_lastNode);
+                    _lastNode = current;
                 }
                 return lastNodeVal;
             }
@@ -77,27 +77,27 @@
 
         private void NewMaxMin(Node NodeToRemove)
         {
-            if (NodeToRemove == MaxNode || NodeToRemove == MinNode)
+            if (NodeToRemove == _maxNode || NodeToRemove == _minNode)
             {
-                if(NodeToRemove == LastNode)
+                if(NodeToRemove == _lastNode)
                 {
-                    MinNode.Value = -1;
-                    MaxNode.Value = -1;
+                    _minNode.Value = -1;
+                    _maxNode.Value = -1;
                 }
                 else
                 {
                     Node current = Head;
-                    MaxNode = current;
-                    MinNode = current;
+                    _maxNode = current;
+                    _minNode = current;
                     while (current != null)
                     {
-                        if (current.Value > MaxNode.Value)
+                        if (current.Value > _maxNode.Value)
                         {
-                            MaxNode = current;
+                            _maxNode = current;
                         }
-                        else if (current.Value < MinNode.Value)
+                        else if (current.Value < _minNode.Value)
                         {
-                            MinNode = current;
+                            _minNode = current;
                         }
                         current = current.Next;
                     }
@@ -111,12 +111,12 @@
             if (Head != null)
             {
                 int firstNodeVal = 0;
-                if (Head == LastNode)
+                if (Head == _lastNode)
                 {
                     firstNodeVal = Head.Value;
                     NewMaxMin(Head);
                     Head = null;
-                    LastNode = null;
+                    _lastNode = null;
                 }
                 else 
                 {
@@ -144,19 +144,19 @@
 
         public bool IsCircular()
         {
-            if (LastNode.Next == Head)
+            if (_lastNode.Next == Head)
                 return true;
             return false;
         }
 
         public Node GetMaxNode()
         {
-            return MaxNode;
+            return _maxNode;
         }
         
         public Node GetMinNode()
         {
-            return MinNode;
+            return _minNode;
         }
 
         public void Sort()
@@ -174,8 +174,8 @@
                         current = current.Next;
                     }
                 }
-                MinNode = Head;
-                MaxNode = LastNode;
+                _minNode = Head;
+                _maxNode = _lastNode;
             }
         }
 

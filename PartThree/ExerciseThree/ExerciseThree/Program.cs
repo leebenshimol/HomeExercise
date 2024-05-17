@@ -8,6 +8,7 @@ namespace PartThree
     {
         static void Main(string[] args)
         {
+            //TEST:
             //LinkedList linkedList = new LinkedList(5);
             // linkedList.Append(4);
             //linkedList.Append(2);
@@ -30,9 +31,9 @@ namespace PartThree
             //    Console.Write(i + " - > ");
             //}
             // Console.WriteLine(linkedList.IsCircular());
-            NumericalExpression numericalExpression = new NumericalExpression(74205);
+            //NumericalExpression numericalExpression = new NumericalExpression(-205);
             //Console.WriteLine(numericalExpression.ToString());
-            Console.WriteLine(NumericalExpression.SumLetters(1));
+            //Console.WriteLine(NumericalExpression.SumLetters(1));
 
         }
     }

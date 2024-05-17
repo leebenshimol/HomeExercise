@@ -3,42 +3,42 @@ namespace PartThree
 {
     class NumericalExpression
     {
-        private int Value;
-        private readonly String[] Units = { "", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
-        private readonly String[] NumberSize = { "", "Thousand", "Million", "Billion"}; 
-        private readonly String[] Tens = { "", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
+        private int _value;
+        private readonly String[] _units = { "", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
+        private readonly String[] _numberSize = { "", "Thousand", "Million", "Billion"}; 
+        private readonly String[] _tens = { "", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
         public NumericalExpression(int value)
         {
-            Value = value;
+            _value = value;
         }
 
         public int GetValue()
         {
-            return Value;
+            return _value;
         }
 
         public override string ToString()
         {
-            if (Value == 0)
+            if (_value == 0)
                 return "Zero";
 
             bool isMinus = false;
 
-            if (Value < 0)
+            if (_value < 0)
             {
                 isMinus = true;
-                Value = Math.Abs(Value);
+                _value = Math.Abs(_value);
             }
 
             string numberInWords = "";
             
-            for (int i = 0; Value > 0; i++) 
+            for (int i = 0; _value > 0; i++) 
             {
-                if (Value % 1000 != 0)
+                if (_value % 1000 != 0)
                 {
-                    numberInWords = ConvertingHundredsToWords(Value % 1000) + NumberSize[i] + " " + numberInWords;
+                    numberInWords = ConvertingHundredsToWords(_value % 1000) + _numberSize[i] + " " + numberInWords;
                 }
-                Value /= 1000;
+                _value /= 1000;
             }
             if (isMinus)
                 return "Minus " + numberInWords;
@@ -51,18 +51,18 @@ namespace PartThree
             string numberInWords = "";
             if (value >= 100)
             {
-                numberInWords += Units[value / 100] + " Hundred";
+                numberInWords += _units[value / 100] + " Hundred";
                 value %= 100;
             }
 
             if (value >= 10 && value <= 19)
             {
-                numberInWords += Units[value % 10] + " ";
+                numberInWords += _units[value % 10] + " ";
             }
             else
             {
-                numberInWords += Tens[value / 10] + " ";
-                numberInWords += Units[value % 10] + " ";
+                numberInWords += _tens[value / 10] + " ";
+                numberInWords += _units[value % 10] + " ";
             }
             return numberInWords;
         }
@@ -99,27 +99,3 @@ namespace PartThree
         }
     }
 }
-
-
-
-//double amountOfDigits = Math.Ceiling(Math.Log10(Value));
-//string numberInWords = "";
-//if (amountOfDigits == 1)
-//{
-//    numberInWords = units[Value];
-//}
-//if (amountOfDigits == 2)
-//{
-//    numberInWords = units[Value / 10];
-//    if (Value % 10 != 0)
-//        numberInWords += units[Value % 10];
-//}
-//if (amountOfDigits == 3)
-//{
-//    numberInWords = units[Value / 100] + " hundreds";
-//    if (Value % 100 != 0)
-//        numberInWords += units[(Value % 100) / 10];
-//    if (Value % 10 != 0)
-//        numberInWords += units[Value % 10];
-//}
-//return numberInWords;

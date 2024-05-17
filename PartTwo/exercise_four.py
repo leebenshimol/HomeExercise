@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
+from scipy.stats import pearsonr
 
 
 def user_input_to_list() -> list:
@@ -63,5 +64,5 @@ def show_graphical_data(numbers_list: list) -> None:
     plt.plot(x, model)
     plt.show()
 
-# def pearson_correlation(numbers_list: list) -> float:
-#     return 0
+
+

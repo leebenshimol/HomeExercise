@@ -8,5 +8,5 @@ if __name__ == '__main__':
     print(num_len(1000))
     pythagorean_triplet_by_sum(600)
     print(f"{is_sorted_polyndrom("אבגדגבא")}")
-    # numbers_data()
+    numbers_data()
     print(reverse_n_pi_digits(3))
